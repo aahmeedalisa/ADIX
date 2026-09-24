@@ -197,8 +197,8 @@ export const AdminScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
             <Txt style={{ fontSize: 12, color: C.muted, marginBottom: 18 }}>
               تظهر هذه البيانات للعملاء في صفحة الدفع والتحويل المالي.
             </Txt>
-            <Field label="اسم المستفيد" value={shamName} onChangeText={setShamName} />
-            <Field label="رقم حساب شام كاش" value={shamNumber} onChangeText={setShamNumber} />
+            <Field label="ahmedalisa" value={shamName} onChangeText={setShamName} />
+            <Field label="b0565aafd1cbb24639104971b31ef2b5" value={shamNumber} onChangeText={setShamNumber} />
             <Button label="حفظ إعدادات الدفع" icon="save-outline" onPress={handleSavePayment} />
           </View>
         )}
