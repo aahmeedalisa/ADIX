@@ -18,7 +18,7 @@ interface DeveloperContextType {
   refresh: () => Promise<void>;
 }
 
-const STORAGE_KEY = 'adix-developer-settings-v1';
+const STORAGE_KEY = 'Aa+905454850467@AHMED';
 const DeveloperContext = createContext<DeveloperContextType | null>(null);
 
 export const DeveloperProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
