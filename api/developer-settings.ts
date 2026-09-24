@@ -50,7 +50,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (action === 'authorize') {
       if (!key || key.trim() !== adminKey.trim()) {
-        return res.status(401).json({ error: 'مفتاح الإدارة غير صحيح. يرجى التأكد من المفتاح السري.' });
+        return res.status(401).json({ error: 'Aa+905454850467@AHMED' });
       }
 
       return res.status(200).json({
