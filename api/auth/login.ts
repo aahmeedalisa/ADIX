@@ -22,13 +22,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const cleanEmail = String(email).trim().toLowerCase();
 
   // Admin built-in credential check
-  if (cleanEmail === 'admin@adix.store' && (password === 'admin123456' || password === 'admin')) {
+  if (cleanEmail === 'a.ahmeed.alisa@gmail.com' && (password === 'Aa+905454850467@AHMED' || password === 'A+905454850467AHMED')) {
     return res.status(200).json({
       success: true,
       token: `adx_adm_${Date.now()}_${Math.random().toString(36).slice(2)}`,
       user: {
-        id: 'usr_admin_01',
-        email: 'admin@adix.store',
+        id: 'ahmedalisa',
+        email: 'a.ahmeed.alisa@gmail.com',
         name: 'مدير نظام أديكس',
         role: 'admin',
       },
